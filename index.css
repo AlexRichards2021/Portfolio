@@ -1,0 +1,93 @@
+body{ background-image: url(./resources/background.jpg);
+        background-size:auto;
+        background-position:  center -510px;
+        background-repeat: no-repeat;
+        display:flex;
+        margin: 0;
+        text-align: center;
+        }
+
+
+/* nav bar section */
+.nav { background-color:black;
+        display: flex;
+        justify-content:flex-start;
+        flex-direction: column;
+        align-items: center;
+        width:200px;
+        padding-top: 20px;
+        margin: 0;
+}
+
+.picture{ background-color: red;
+            height: 100px;
+            width: 100px;
+            background-image: url(resources/pic.jpg);
+            background-size:auto;
+            background-repeat: no-repeat;
+            background-size: 100px 100px;
+            border-radius: 100%;
+            border:2px solid white;
+            transition: 0.5s scale ease-in-out , 0.5s border-color ease-in-out;
+            }
+.picture:hover {
+    scale:1.2;
+    border-color:orange;
+}
+
+.links h3{
+    padding-top:30px;
+    transition: 0.5s color ease-in-out, 0.5s scale ease-in-out;
+    cursor: pointer;
+
+}
+
+.links h3:hover{
+    color: orange;
+    scale:1.2;
+}
+.logos{padding-top: 15px;
+        display:flex;
+        justify-content:space-between;
+        }
+svg{background-color:white;
+    height:30px;
+    padding:5px;
+    margin:5px;
+    cursor: pointer;
+    transition: 0.5s background-color ease-in-out, 0.5s scale ease-in-out;
+}
+svg:hover{
+    background-color:orange;
+    scale:1.2
+    
+}
+nav h3{color:white;}
+
+.created-by{
+    color:white;
+    flex-grow: 1;
+    align-self: flex-end;
+    padding-top: 60px;;
+
+}
+
+/* name overlay */
+.name{display: flex;
+    align-self:flex-start;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    background-color: white;
+    width:100%;
+    opacity: 75%;}
+a{text-decoration: none;}
+.name h1 {
+            margin-bottom: 0px;
+            font-size: 40px;;
+            }
+
+.name h3{ text-decoration-color: orange;
+            text-decoration: underline;
+            margin-top: 0;}
+
